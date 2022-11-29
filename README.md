@@ -1,4 +1,10 @@
-# benchmark
+# SWC Plugin Benchmark
+
+SWC plugin vs Babel plugin
+
+## Vue JSX
+
+`swc-plugin-vue-jsx` ↔️ `@vue/babel-plugin-jsx`
 
 ```
 Running "Vue JSX" suite...
