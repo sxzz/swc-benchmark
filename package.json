@@ -1,6 +1,9 @@
 {
   "name": "benchmark",
   "type": "module",
+  "scripts": {
+    "benchmark": "rm -fr benchmark/results/ && node benchmark.js && cp benchmark/results/*.html results.html"
+  },
   "devDependencies": {
     "@babel/core": "^7.20.5",
     "@swc/core": "^1.3.20",
