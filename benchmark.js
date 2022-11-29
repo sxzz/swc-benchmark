@@ -22,8 +22,8 @@ import {
 b.suite(
   'Vue JSX',
 
-  b.add('SWC async', async () => {
-    await swcTransform(code, {
+  b.add('SWC async', () => {
+    return swcTransform(code, {
       jsc: {
         parser: {
           syntax: 'ecmascript',
@@ -50,15 +50,8 @@ b.suite(
     })
   }),
 
-  b.add('Babel sync', () => {
+  b.add('Babel', () => {
     babelTransformSync(code, {
-      plugins: ['@vue/babel-plugin-jsx'],
-    })
-  }),
-
-  b.add('Babel async', async () => {
-    // https://github.com/sxzz/swc-benchmark/pull/1
-    await babelTransform(code, {
       plugins: ['@vue/babel-plugin-jsx'],
     })
   }),
