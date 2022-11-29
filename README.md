@@ -1,5 +1,7 @@
 # SWC Plugin Benchmark
 
+**JUST FOR TESTING, DO TRUST IT.**
+
 SWC plugin vs Babel plugin
 
 [See results](https://blog.sxzz.moe/swc-benchmark/results.html)
