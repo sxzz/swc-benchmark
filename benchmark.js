@@ -5,7 +5,10 @@ import {
   transform as swcTransform,
   transformSync as swcTransformSync,
 } from '@swc/core'
-import { transform as babelTransform } from '@babel/core'
+import {
+  transform as babelTransform,
+  transformSync as babelTransformSync,
+} from '@babel/core'
 
 b.suite(
   'Vue JSX',
@@ -39,7 +42,7 @@ b.suite(
   }),
 
   b.add('Babel sync', () => {
-    babelTransform(code, {
+    babelTransformSync(code, {
       plugins: ['@vue/babel-plugin-jsx'],
     })
   }),
