@@ -2,6 +2,8 @@
 
 SWC plugin vs Babel plugin
 
+[See results](https://blog.sxzz.moe/swc-benchmark/results.html)
+
 ## Vue JSX
 
 `swc-plugin-vue-jsx` ↔️ `@vue/babel-plugin-jsx`
