@@ -21,8 +21,8 @@ b.suite(
     })
   }),
 
-  b.add('babel', () => {
-    babelTransform(code, {
+  b.add('babel', async () => {
+    await babelTransform(code, {
       plugins: ['@vue/babel-plugin-jsx'],
     })
   }),
