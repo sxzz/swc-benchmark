@@ -1,0 +1,12 @@
+{
+  "name": "benchmark",
+  "type": "module",
+  "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@swc/core": "^1.3.20",
+    "@types/node": "^18.11.9",
+    "@vue/babel-plugin-jsx": "^1.1.1",
+    "benny": "^3.7.1",
+    "swc-plugin-vue-jsx": "^0.2.0"
+  }
+}
