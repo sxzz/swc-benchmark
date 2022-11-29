@@ -1,4 +1,13 @@
-const code = `const Comp = () => <h1>Hello World</h1>`
+const code = `
+const App0 = () => <h1>Hello World</h1>
+const App1 = () => (
+  <>
+    <span>I'm</span>
+    <span>Fragment</span>
+  </>
+)
+const App2 = () => <input type="email" />;
+`
 
 import b from 'benny'
 import {
