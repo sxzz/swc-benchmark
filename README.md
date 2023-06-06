@@ -4,7 +4,7 @@
 
 SWC plugin vs Babel plugin
 
-[See results](https://blog.sxzz.moe/swc-benchmark/results.html)
+[See results](https://sxzz.github.io/swc-benchmark/results.html)
 
 ## Vue JSX
 
