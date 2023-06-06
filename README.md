@@ -15,13 +15,13 @@ Running "Vue JSX" suite...
 Progress: 100%
 
   SWC async:
-    3 236 ops/s, ±1.00%   | 9.79% slower
+    3 201 ops/s, ±1.41%   | 9.14% slower
 
   SWC sync:
-    3 587 ops/s, ±0.80%   | fastest
+    3 523 ops/s, ±0.30%   | fastest
 
   Babel:
-    2 878 ops/s, ±3.71%   | slowest, 19.77% slower
+    2 839 ops/s, ±3.52%   | slowest, 19.42% slower
 
 Finished 3 cases!
   Fastest: SWC sync

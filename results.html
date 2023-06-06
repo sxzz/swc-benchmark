@@ -28,7 +28,7 @@
   </head>
   <body>
     <div class="container">
-      <canvas id="chart1686094377507" width="16" height="9"></canvas>
+      <canvas id="chart1686094605619" width="16" height="9"></canvas>
     </div>
     <script>
       const format = (num) => {
@@ -51,18 +51,18 @@
           chunked.map((chunk) => chunk.join('')).join(' ') + fractionStr
         )
       }
-      const ctx1686094377507 = document
-        .getElementById('chart1686094377507')
+      const ctx1686094605619 = document
+        .getElementById('chart1686094605619')
         .getContext('2d')
-      const chart1686094377507 = new Chart(ctx1686094377507, {
+      const chart1686094605619 = new Chart(ctx1686094605619, {
         type: 'bar',
         data: {
           labels: ["SWC async","SWC sync","Babel"],
           datasets: [
             {
-              data: [3236,3587,2878],
-              backgroundColor: ["hsl(108.25200000000001, 85%, 55%)","hsl(120, 85%, 55%)","hsl(96.276, 85%, 55%)"],
-              borderColor: ["hsl(108.25200000000001, 85%, 55%)","hsl(120, 85%, 55%)","hsl(96.276, 85%, 55%)"],
+              data: [3201,3523,2839],
+              backgroundColor: ["hsl(109.032, 85%, 55%)","hsl(120, 85%, 55%)","hsl(96.696, 85%, 55%)"],
+              borderColor: ["hsl(109.032, 85%, 55%)","hsl(120, 85%, 55%)","hsl(96.696, 85%, 55%)"],
               borderWidth: 2,
             },
           ],
