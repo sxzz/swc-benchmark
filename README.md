@@ -15,17 +15,20 @@ Running "Vue JSX" suite...
 Progress: 100%
 
   SWC async:
-    3 201 ops/s, ±1.41%   | 9.14% slower
+    3 258 ops/s, ±0.72%   | 8.64% slower
 
   SWC sync:
-    3 523 ops/s, ±0.30%   | fastest
+    3 566 ops/s, ±0.95%   | fastest
 
-  Babel:
-    2 839 ops/s, ±3.52%   | slowest, 19.42% slower
+  Babel async:
+    1 807 ops/s, ±2.02%   | slowest, 49.33% slower
 
-Finished 3 cases!
+  Babel sync:
+    3 184 ops/s, ±1.50%   | 10.71% slower
+
+Finished 4 cases!
   Fastest: SWC sync
-  Slowest: Babel
+  Slowest: Babel async
 ```
 
 Tested on Apple M1 Max (32GB), Node.js v18.16.0

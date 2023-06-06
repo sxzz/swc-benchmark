@@ -15,7 +15,7 @@ import {
   transformSync as swcTransformSync,
 } from '@swc/core'
 import {
-  transform as babelTransform,
+  transformAsync as babelTransformAsync,
   transformSync as babelTransformSync,
 } from '@babel/core'
 
@@ -50,7 +50,13 @@ b.suite(
     })
   }),
 
-  b.add('Babel', () => {
+  b.add('Babel async', () => {
+    return babelTransformAsync(code, {
+      plugins: ['@vue/babel-plugin-jsx'],
+    })
+  }),
+
+  b.add('Babel sync', () => {
     babelTransformSync(code, {
       plugins: ['@vue/babel-plugin-jsx'],
     })
